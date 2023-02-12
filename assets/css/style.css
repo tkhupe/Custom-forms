@@ -113,12 +113,15 @@ select:hover, button:hover {
   box-shadow: 0 0 5px #999;
 }
 
-/* What does this pseudo-class mean? */
+/* What does this pseudo-class mean?-It allows the keyboard to focus 
+on the text input area and also bring 
+into focus the text input section container */
 .text-input:focus {
-  border-right-width: 5px;
+  border-left-width: 5px;
 }
 
-/* What does this pseudo-class mean? */
+/* What does this pseudo-class mean?-It pust a 
+placeholder text where input goes */
 .text-input:placeholder-shown {
   border-style: dashed;
 }
@@ -137,13 +140,15 @@ select:hover, button:hover {
   margin-right: 2%;
 }
 
-/* What does this selector do? */
+/* What does this selector do?- It turns the 
+text to italic and grey when the checkbox is checked*/
 .checkbox:checked + label {
   color: #999999;
   font-style: italic;
 }
 
-/* What does this selector do? */
+/* What does this selector do?- It make (Thanks) appear 
+after the checkbox is checked */
 .checkbox:checked + label::after {
   margin-left: 10px;
   font-size: 90%;
