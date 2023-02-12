@@ -115,13 +115,15 @@ select:hover, button:hover {
 
 /* What does this pseudo-class mean?-It allows the keyboard to focus 
 on the text input area and also bring 
-into focus the text input section container */
+into focus the text input section container(from soliutions- there 
+is a right side border that appears when text is being inputed}  */
 .text-input:focus {
-  border-left-width: 5px;
+  border-right-width: 100px;
 }
 
 /* What does this pseudo-class mean?-It pust a 
-placeholder text where input goes */
+placeholder text where input goes (from instructor-the border becomes 
+dashed when placeholde is visible*/
 .text-input:placeholder-shown {
   border-style: dashed;
 }
