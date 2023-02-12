@@ -123,7 +123,7 @@ is a right side border that appears when text is being inputed}  */
 
 /* What does this pseudo-class mean?-It pust a 
 placeholder text where input goes (from instructor-the border becomes 
-dashed when placeholde is visible*/
+dashed when placeholder is visible*/
 .text-input:placeholder-shown {
   border-style: dashed;
 }
